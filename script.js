@@ -2,7 +2,7 @@
 reasons = [
 	{
 		"reason": "Crabs are superior to everything else",
-		"elab": "Scientific research shows this, totally.",
+		"elab": "Evidence? Because they are.",
 		"image": "assets/medal.png"
 	},
 	{
