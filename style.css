@@ -130,3 +130,40 @@ section h1{
 .hide{
 	display: none;
 }
+#howtojoin{
+	background: orangered;
+	color: white;
+}
+#howtojoin p{
+	text-align: center;
+	font-size: 24px;
+}
+#howtojoin img{
+	margin: auto;
+	display: block;
+}
+#downloadcrab{
+	margin: 20px 0;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 24px;
+	background: white;
+	border-radius: 8px;
+	padding: 10px 20px;
+	border: 0;
+	display: block;
+	transition: 0.2s ease;
+}
+#downloadcrab:hover{
+	transform: scale(1.25);
+}
+#downloadcont{
+	display: block;
+	margin: auto;
+	width: fit-content;
+	width: -moz-fit-content;
+	text-decoration: none;
+}
+img{
+	max-width: 90vw;
+}
