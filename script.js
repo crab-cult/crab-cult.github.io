@@ -40,6 +40,11 @@ reasons = [
 		"elab": "Scientific research shows this, totally.",
 		"image": "assets/job.jpeg"
 	},
+	{
+		"reason": "Crabs are the end of everything",
+		"elab": "<a href='https://en.wikipedia.org/wiki/Carcinisation' target='_blank'>Wikipedia</a>",
+		"image": "assets/time.png"
+	},
 ]
 
 for (reason of reasons){

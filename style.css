@@ -74,7 +74,7 @@ header h2{
 section{
 	padding: 35px 20px;
 }
-section h1{
+section > h1{
 	font-size: 72px;
 	text-align: center;
 	margin: 0;
@@ -166,4 +166,43 @@ section h1{
 }
 img{
 	max-width: 90vw;
+}
+#testimonials{
+	background: #f8d48f;
+}
+/* Deal with quotes */
+.quote{
+	display: inline-flex;
+	flex-direction: row;
+	column-gap: 20px;
+	row-gap: 20px;
+	flex-wrap: nowrap;
+	text-align: center;
+	padding: 20px;
+	background: white;
+	box-shadow: 0px 0px 8px white;
+	max-width: min(100vw, 500px);
+}
+.quote h1, .quote p{
+	margin: 0;
+}
+.quote > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.quote img{
+	height:150px;
+	width: 150px;
+	object-fit: cover;
+}
+#quotes__cont{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+#whycrab{
+	background: #a9ccbf;
 }
