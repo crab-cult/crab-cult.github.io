@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>replit</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="yt_cont">
+			<iframe width="560" id="yt_video" height="315" src="https://www.youtube.com/embed/LDU_Txk06tM?&enablejsapi=1&autoplay=1&mute=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<span class="close">&times;</span>
+		</div>
+		<header>
+			<div class="content">
+				<div>
+					<h1 class="bold">Crab Cult</h1>
+					<h2 class="bold">Crabs are cool</h2>
+				</div>
+				<img src="assets/crab.png" alt="Crab Cult logo">
+			</div>
+			<div class="arrow" onclick="document.getElementById('whycrab').scrollIntoView({behavior: 'smooth'})">⬇️ 🦀 ⬇️</div>
+		</header>
+		<section id="whycrab">
+			<h1 class="bold">Why Should I join?</h1>
+			<div id="crab_reasons"></div>
+		</section>
+		<script src="script.js" defer></script>
+	</body>
+</html>
