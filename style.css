@@ -202,6 +202,8 @@ img{
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	row-gap: 20px;
+	column-gap: 20px;
 }
 #whycrab{
 	background: #a9ccbf;
