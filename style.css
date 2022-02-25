@@ -208,3 +208,7 @@ img{
 #whycrab{
 	background: #a9ccbf;
 }
+
+.invert{
+	transform: rotate(180deg);
+}
